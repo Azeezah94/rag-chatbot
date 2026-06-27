@@ -1,13 +1,13 @@
-# RAG Chatbot — Document Q&A Agent
+# RAG Chatbot - Document Q&A Agent
 **Author:** Azeezat Akinola | [LinkedIn](https://www.linkedin.com/in/azeezat-akinola-710b73113) | [Portfolio](https://Azeezah94.github.io)
 
 A retrieval-augmented generation chatbot that answers questions grounded in your own documents (PDF, TXT, CSV), with source citations for every answer.
 
 ## How it works
-1. **Ingest** — documents are chunked and embedded using sentence-transformers
-2. **Store** — embeddings persist in a local Chroma vector database
-3. **Retrieve** — relevant chunks are pulled for each question via semantic search
-4. **Generate** — an LLM answers using only the retrieved context, citing sources
+1. **Ingest** - documents are chunked and embedded using sentence-transformers
+2. **Store** - embeddings persist in a local Chroma vector database
+3. **Retrieve** - relevant chunks are pulled for each question via semantic search
+4. **Generate** - an LLM answers using only the retrieved context, citing sources
 
 ## Features
 - Multi-format support: PDF, TXT, CSV
